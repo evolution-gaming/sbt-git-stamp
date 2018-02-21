@@ -1,4 +1,6 @@
-# sbt-git-stamp — An SBT plugin that will stamp the `MANIFEST.MF` file in the output artifact with some basic git information. #
+# sbt-git-stamp
+
+An SBT plugin that will stamp the `MANIFEST.MF` file in the output artifact with some basic git information. #
 
 This plugin is based on Patrick Kaeding's [work](https://bitbucket.org/pkaeding/sbt-git-stamp)
 
