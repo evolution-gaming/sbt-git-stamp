@@ -1,6 +1,6 @@
-# sbt-git-stamp
+# sbt-git-stamp https://travis-ci.org/evolution-gaming/sbt-git-stamp.svg?branch=master
 
-An SBT plugin that will stamp the `MANIFEST.MF` file in the output artifact with some basic git information. #
+An SBT plugin that will stamp the `MANIFEST.MF` file in the output artifact with some basic git information.
 
 This plugin is based on Patrick Kaeding's [work](https://bitbucket.org/pkaeding/sbt-git-stamp)
 
