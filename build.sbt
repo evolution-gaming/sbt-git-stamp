@@ -24,3 +24,18 @@ scalacOptions ++= Seq("-deprecation", "-unchecked")
 libraryDependencies ++= Seq (
   "org.eclipse.jgit" % "org.eclipse.jgit" % "4.10.0.201712302008-r"
 )
+
+import ReleaseTransformations._
+releaseProcess := Seq[ReleaseStep](
+  checkSnapshotDependencies,
+  inquireVersions,
+  runClean,
+  releaseStepCommandAndRemaining("^ test"),
+  setReleaseVersion,
+  commitReleaseVersion,
+  tagRelease,
+  releaseStepCommandAndRemaining("^ publish"),
+  setNextVersion,
+  commitNextVersion,
+  pushChanges
+)
