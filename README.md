@@ -1,4 +1,4 @@
-# sbt-git-stamp  [![Build Status](https://travis-ci.org/evolution-gaming/sbt-git-stamp.svg?branch=master)]
+# sbt-git-stamp  [![Build Status](https://travis-ci.org/evolution-gaming/sbt-git-stamp.svg?branch=master)](https://travis-ci.org/evolution-gaming/akka-tools) [ ![Version](https://api.bintray.com/packages/evolutiongaming/sbt-plugins/sbt-git-stamp/images/download.svg) ](https://bintray.com/evolutiongaming/sbt-plugins/sbt-git-stamp/_latestVersion)
 
 An SBT plugin that will stamp the `MANIFEST.MF` file in the output artifact with some basic git information.
 
