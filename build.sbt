@@ -17,12 +17,12 @@ licenses := Seq(("MIT", url("https://opensource.org/licenses/MIT")))
 
 startYear := Some(2018)
 
-crossSbtVersions := Seq("1.1.1", "0.13.16")
+crossSbtVersions := Seq("1.2.3", "0.13.16")
 
 scalacOptions ++= Seq("-deprecation", "-unchecked")
 
 libraryDependencies ++= Seq (
-  "org.eclipse.jgit" % "org.eclipse.jgit" % "4.10.0.201712302008-r"
+  "org.eclipse.jgit" % "org.eclipse.jgit" % "4.11.3.201809181037-r"
 )
 
 import ReleaseTransformations._

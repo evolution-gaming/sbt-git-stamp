@@ -1,4 +1,4 @@
-# sbt-git-stamp  [![Build Status](https://travis-ci.org/evolution-gaming/sbt-git-stamp.svg?branch=master)](https://travis-ci.org/evolution-gaming/akka-tools) [ ![Version](https://api.bintray.com/packages/evolutiongaming/sbt-plugins/sbt-git-stamp/images/download.svg) ](https://bintray.com/evolutiongaming/sbt-plugins/sbt-git-stamp/_latestVersion)
+# sbt-git-stamp  [![Build Status](https://travis-ci.org/evolution-gaming/sbt-git-stamp.svg?branch=master)](https://travis-ci.org/evolution-gaming/akka-tools) [ ![Version](https://api.bintray.com/packages/evolutiongaming/sbt-plugins/sbt-git-stamp/images/download.svg) ](https://bintray.com/evolutiongaming/sbt-plugins/sbt-git-stamp/_latestVersion) [![License: MIT](https://img.shields.io/badge/License-MIT-yellowgreen.svg)](https://opensource.org/licenses/MIT)
 
 An SBT plugin that will stamp the `MANIFEST.MF` file in the output artifact with some basic git information.
 
@@ -21,7 +21,7 @@ help you track down where a build came from.
 
 Add the following to your `project/plugins.sbt`:
 
-  addSbtPlugin("com.evolutiongaming" % "sbt-git-stamp" % "0.1.0")
+  addSbtPlugin("com.evolutiongaming" % "sbt-git-stamp" % "0.2.0")
 
 It is autoplugin that requires no more actions except aforementioned one.
 
